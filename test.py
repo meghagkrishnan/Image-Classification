@@ -5,7 +5,7 @@ from torchvision import datasets, transforms
 from src.model import VGG16  # Assuming your model is in 'model.py'
 
 # Define a test directory (this should point to a valid folder with images for testing)
-data_dir = "/home/gopalakrishnanm/Tutorial_Projects/Image-Classification/data/PetImages"
+data_dir = "/data/PetImages"
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
