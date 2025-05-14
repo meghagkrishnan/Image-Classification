@@ -7,7 +7,7 @@ from torch.utils.data import DataLoader, random_split
 
 from model import VGG16
 
-data_dir = "/home/gopalakrishnanm/Tutorial_Projects/Tutorial_Projects/Image-Classification/data/PetImages"
+data_dir = "/home/gopalakrishnanm/Tutorial_Projects/Image-Classification/data/PetImages"
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
