@@ -2,10 +2,10 @@ name: Image-Classification project workflow
 
 on:
   push:
-  branches:
-    - main
-  path-ignore:
-    - 'README.md'
+    branches:
+      - main
+    path-ignore:
+      - 'README.md'
 
 permissions:
   id-token: write
