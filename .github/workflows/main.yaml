@@ -28,6 +28,7 @@ jobs:
       - name: Run unit test
         run: |
           pip install pytest
+          cd Image-Classification
           pytest -v
 
 
