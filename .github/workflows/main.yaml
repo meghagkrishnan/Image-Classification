@@ -26,12 +26,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run unit test
-        uses: echo "Running unit tests"
         run: |
           pytest -v Image-Classification
 
-build-and-push:
-  name: Build and push artifacts
-  needs: integration
-  runs-on: ubuntu-latest
-  steps:
+
