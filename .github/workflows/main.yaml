@@ -27,6 +27,6 @@ jobs:
 
       - name: Run unit test
         run: |
-          pytest -v Image-Classification
+          pytest -v test.py
 
 
